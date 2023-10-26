@@ -10,6 +10,7 @@ FILE = Path(__file__).resolve()
 PARENT = FILE.parent  # root directory
 README = (PARENT / 'README.md').read_text(encoding='utf-8')
 
+print('Starting Setup')
 
 def get_version():
     """
